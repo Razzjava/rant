@@ -1,0 +1,43 @@
+main {
+	display: grid;
+}
+
+.header {
+	display: inline;
+	text-align: center;
+
+}
+.rating{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
+	padding: 2px;
+	margin: 10px;
+}
+
+
+
+
+body {
+	background-color: #6200ea;
+	color: white;
+}
+
+.rant {
+	background-color: grey;
+	color: white;
+}
+
+
+
+
+.input {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	padding: 10px;
+	
+}
+
