@@ -48,8 +48,6 @@ function Input (){
 			method: 'POST',
 			headers: {"Content-Type": "application/json"},
 			body: JSON.stringify(rant)
-		}).then(()=>{
-			console.log('rant added')
 		})
 		setMessage('')
 		

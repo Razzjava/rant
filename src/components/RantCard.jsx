@@ -9,16 +9,7 @@ function RantCard ({element}){
 	return (
 		<div className="the-card">
 			<Card >
-				<CardHeader 
-				action={
-					<IconButton onClick={()=>(
-						setReports(reports+1)
-					)}>
-						<Report />
-						{reports}
-					</IconButton>
-				}
-				/>
+				
 				<CardContent>
 					<Typography variant="body1"  >
 						{element.rant}
@@ -37,3 +28,15 @@ function RantCard ({element}){
 }
 
 export default RantCard;
+
+// card header component
+/* <CardHeader 
+				action={
+					<IconButton onClick={()=>(
+						setReports(reports+1)
+					)}>
+						<Report />
+						{reports}
+					</IconButton>
+				}
+				/> */
