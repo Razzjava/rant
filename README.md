@@ -1,13 +1,14 @@
-## Running React on Repl.it
+# Rant Application
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+### Updates
+App is now responsive. More styling updates to follow.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+### About this app
+In order to use this application, please click on press the run button, then visit the [website](https://rant.razzjava.repl.co/), where you can see the fully functional app, feel free to post a rant.
+There may be times that the server is not running, in that instace, please click the run button on the following link [server](https://replit.com/@Razzjava/rant-server?v=1).
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+### Server
+The server is built using express and REPL DB, this api is the backend of the rant application. the link can be found here [Rant Server](https://replit.com/@Razzjava/rant-server?v=1).
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Repl.it runs the `dev` script, but you can configure it by changing the `run` field in the `.replit` file.
+### UI
+The UI is built using React js and Vite & Material UI
