@@ -8,7 +8,7 @@ function Message ({display}){
 		<Container>
 		<Grid container spacing={6}>
 			{display.map(element=>(
-	  <Grid item md={6} as={12} key={element.id}>
+	  <Grid item lg={12} md={12} xs={12} key={element.id}>
 		<RantCard element={element} />
 		</Grid>))}
 
